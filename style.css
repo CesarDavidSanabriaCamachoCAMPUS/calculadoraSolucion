@@ -64,18 +64,15 @@ body{
 }
 
 .buttonContainer .deleteItem:hover{
-    background: linear-gradient(rgb(180, 108, 0),rgb(255, 174, 0), rgb(255, 217, 0),rgb(229, 255, 0),rgb(166, 255, 0));
-    color: black;
+    color: rgb(255, 145, 0);
 }
 
 .buttonContainer .deleteAll:hover{
-    background: linear-gradient(rgb(160, 2, 2),red, rgb(255, 38, 0),rgb(255, 72, 0),rgb(255, 136, 0));
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 .buttonContainer .equal:hover{
-    background: linear-gradient(rgb(0, 105, 14),rgb(0, 167, 28), rgb(0, 255, 13),rgb(102, 255, 0),rgb(157, 255, 0));
-    color: black;
+    color: rgb(0, 255, 191);
 }
 
 .buttonContainer .operator:hover{

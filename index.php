@@ -32,7 +32,7 @@
         }else{
             $answer = "Syntax ERROR";
         };break;
-        case"%":$answer = $_SESSION["number1"] % $_SESSION["number2"];break;
+        case"%":$answer = fmod($_SESSION["number1"], $_SESSION["number2"]);break;
         case"√":$answer = sqrt($_SESSION["number1"]);
         case"x²":$answer = $_SESSION["number1"] ** $_SESSION["number2"];break;
     };
